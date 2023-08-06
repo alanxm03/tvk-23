@@ -21,26 +21,26 @@ app.use(cors());
 app.use(express.static("public"));
 //index
 app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,"public/views/index.html"))
+    res.sendFile(path.join(__dirname,"/index.html"))
 })
 
 //party
 app.get('/party',(req,res)=>{
-    res.sendFile(path.join(__dirname,"public/views/party.html"))
+    res.sendFile(path.join(__dirname,"/party.html"))
 })
 
 //leader
 app.get('/leader',(req,res)=>{
-    res.sendFile(path.join(__dirname,"public/views/leader.html"))
+    res.sendFile(path.join(__dirname,"/leader.html"))
 })
 
 //download leader image
 app.get('/pathiverakam',(req,res)=>{
-    res.sendFile(path.join(__dirname,"public/views/download.html"))
+    res.sendFile(path.join(__dirname,"/download.html"))
 })
 
 app.get('/contact',(req,res)=>{
-    res.sendFile(path.join(__dirname,"public/views/contact.html"))
+    res.sendFile(path.join(__dirname,"/contact.html"))
 })
 
 //memberreg
