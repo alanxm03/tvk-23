@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>தமிழக வாழ்வுரிமைக் கட்சி</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" id="camera-css" href="css/camera.css" type="text/css" media="all">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css" />
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/memberForm.css" />
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!--header-->
+
+    <div class="header">
+
+        <div class="wrap">
+            <div class="navbar navbar_ clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="span4">
+
+
+
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><a href="/"><img src="img/Flag.gif" width="76"
+                                                    height="67" alt="" /></a>
+                                            <a href="/"><img src="img/logo.png" width="344" height="60"
+                                                    alt="" /></a>
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+
+
+
+                        </div>
+                        <div class="span8">
+                            <div class="follow_us">
+                                <ul>
+
+
+
+
+                                    <li><a href="#" class="facebook">Facebook</a></li>
+                                    <li><a href="#" class="vimeo">Vimeo</a></li>
+                                    <li><a href="#" class="tumbrl">Tumbrl</a></li>
+                                    <li><a href="#" class="twitter">Twitter</a></li>
+
+                                </ul>
+
+
+                            </div>
+                            <div class="clear"></div>
+                            <nav id="main_menu">
+                                <div class="menu_wrap">
+                                    <ul class="nav sf-menu">
+                                        <li ><a href="/"><span
+                                                    style="font-size: 13.3px">முகப்பு</a></li>
+                                        <li><a href="/party"><span style="font-size: 13.3px">கட்சி </a></li>
+                                        <li><a href="/leader"><span style="font-size:13.3px">தலைவர்</a></li>
+                                        <li><a href="/pathiverakam"><span style="font-size: 13.3px">பதிவிறக்கம்
+                                            </a></li>
+                                        <!-- <li><a href="/"><span style="font-size: 13.3px"> நிர்வாகிகள் </a></li> -->
+                                        <!-- <li><a href="/"><span style="font-size:13.3px"> விண்ணப்பங்கள் </a></li> -->
+                                        <!-- <li class="current"><a href="/registerMember"><span style="font-size: 13.3px">உறுப்பினராக</a></li> -->
+                                        <li><a href="/contact"><span style="font-size: 13.3px">தொடர்புக்கு </a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav id="main_menu2">
+                                <div class="menu_wrap">
+                                    <ul class="nav sf-menu">
+                                        <li><a href="/registerMember" style="color: #ad0000">.............</a></li>
+                                        <li><a href="/registerMember"><img src="img/button.png" alt="" width="150" /> </a>
+                                        </li>
+
+
+
+
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//header-->
+
+
+
+    <!-- Form -->
+    <div class="page_container">
+        <section class="container1">
+            <div class="yt_stream">
+                <iframe id="yt"src="https://www.youtube.com/embed/Tyq-izSaBKk?wmode=transparent" ></iframe>
+            </div>
+            <form method="post" name="memberForm">
+            <div class="form_container" id="con1" style="visibility:visible ; display: block;">
+                
+                    <div class="form" >
+                        <div class="row1">
+                            <label for="name">* பெயர்</label>
+                            <input type="text" id="name" name="name" /><br>
+
+                            <label for="fatherName">* தந்தை பெயர்</label>
+                            <input type="text" id="fatherName" name="fatherName" /><br>
+
+                            <label for="gender">பாலினம்</label>
+                            <input type="text" id="gender" name="gender" /><br>
+
+                            <label for="dob">* பிறந்த தேதி</label>
+                            <input type="date" id="dob" name="dob" /><br>
+                        </div>
+
+                        <div class="row2">
+                            <label for="country">* வாழும் நாடு</label>
+                            <input type="text" id="country" name="country" /><br>
+
+                            <label for="mobile">* தொடர்பு எண்</label>
+                            <input type="number" id="contact" name="contact" /><br>
+
+                            <label for="whatsappNo">பகிர்/whatsapp</label>
+                            <input type="number" id="whatsapp" name="whatsapp" /><br>
+
+                            <label for="email">மின்னஞ்சல்</label>
+                            <input type="email" id="email" name="email" /><br>
+                        </div>
+                    </div>
+
+
+                    <div class="none"></div>
+                    
+
+                    <input type="button" value="அடுத்து செல்" style="width: 90%;" onclick="reg2()"></input>
+                
+            </div>
+
+            <div class="form_container1" id="con2" style="visibility: hidden; display: none;" >
+                
+                    <div class="form">
+                        <div class="row1">
+                            <label for="state">மாநிலம்</label>
+                            <select id="state" name="state" style="width: 100%;">
+                                <option hidden ></option>
+                                <option value="தமிழ்நாடு">தமிழ்நாடு </option>
+                            </select><br><br>
+
+                            <label for="district">மாவட்டம்</label>
+                            <select id="district" name="district" style="width: 100%;">
+                                <option hidden ></option>
+                                <option value="அரியலூர்">அரியலூர்</option>
+                                <option value="கருர்">கருர்</option>
+                                <option value="நாகப்பட்டினம்">நாகப்பட்டினம்</option>
+                                <option value="பெரம்பலூர்">பெரம்பலூர்</option>
+                                <option value="புதுக்கோட்டை">புதுக்கோட்டை</option>
+                                <option value="தஞ்சாவூர்">தஞ்சாவூர்</option>
+                                <option value="திருச்சி">திருச்சி</option>
+                                <option value="திருவாருர்">திருவாருர்</option>
+                                <option value="தர்மபுரி">தர்மபுரி</option>
+                                <option value="கோவை">கோவை</option>
+                                <option value="ஈரோடு">ஈரோடு</option>
+                                <option value="கிருஷ்ணகிரி">கிருஷ்ணகிரி</option>
+                                <option value="நாமக்கல்">நாமக்கல்</option>
+                                <option value="நீலகிரி">நீலகிரி</option>
+                                <option value="சேலம்">சேலம்</option>
+                                <option value="திருப்பூர்">திருப்பூர்</option>
+                                <option value="திண்டுக்கல்">திண்டுக்கல்</option>
+                                <option value="கன்னியாகுமரி">கன்னியாகுமரி</option>
+                                <option value="மதுரை">மதுரை</option>
+                                <option value="இராமநாதபுரம்">இராமநாதபுரம்</option>
+                                <option value="சிவகங்கை">சிவகங்கை</option>
+                                <option value="தேனி">தேனி</option>
+                                <option value="தூத்துக்குடி">தூத்துக்குடி</option>
+                                <option value="திருநெல்வேலி">திருநெல்வேலி</option>
+                                <option value="விருதுநகர்">விருதுநகர்</option>
+                                <option value="தென்காசி">தென்காசி</option>
+                                <option value="மயிலாடுதுறை">மயிலாடுதுறை</option>
+                                <option value="சென்னை">சென்னை</option>
+                                <option value="கடலூர்">கடலூர்</option>
+                                <option value="காஞ்சிபுரம்">காஞ்சிபுரம்</option>
+                                <option value="செங்கல்பட்டு">செங்கல்பட்டு</option>
+                                <option value="திருவள்ளூர்">திருவள்ளூர்</option>
+                                <option value="திருவண்ணாமலை">திருவண்ணாமலை</option>
+                                <option value="வேலூர்">வேலூர்</option>
+                                <option value="விழுப்புரம்">விழுப்புரம்</option>
+                                <option value="கள்ளக்குறிச்சி">கள்ளக்குறிச்சி</option>
+                                <option value="ராணிபேட்டை">ராணிபேட்டை</option>
+                                <option value="திருப்பத்தூர்">திருப்பத்தூர்</option>
+                              </select><br><br>
+
+                            <label for="area">தொகுதி</label>
+                            <select id="area" name="area" style="width: 100%;" >
+                                <option hidden ></option>
+                                  <option value="அண்ணாமலை நகர்">அண்ணாமலை நகர்</option>
+                                  <option value="புவனகிரி">புவனகிரி</option>
+                                  <option value="கங்கைகொண்டான்">கங்கைகொண்டான்</option>
+                                  <option value="கிள்ளை">கிள்ளை</option>
+                                  <option value="குறிஞ்சிப்பாடி">குறிஞ்சிப்பாடி</option>
+                                  <option value="லால்பேட்">லால்பேட்</option>
+                                  <option value="காட்டுமன்னார்கோயில்">காட்டுமன்னார்கோயில்</option>
+                                  <option value="மங்களம்பேட்டை">மங்களம்பேட்டை</option>
+                                  <option value="மேல்பட்டாம்பாக்கம்">மேல்பட்டாம்பாக்கம்</option>
+                                  <option value="பரங்கிப்பேட்டை">பரங்கிப்பேட்டை</option>
+                                  <option value="பெண்ணாடம்">பெண்ணாடம்</option>
+                                  <option value="சேத்தியாத்தோப்பு">சேத்தியாத்தோப்பு</option>
+                                  <option value="ஸ்ரீமுஷ்ணம்">ஸ்ரீமுஷ்ணம்</option>
+                                  <option value="தொரப்பாடி">தொரப்பாடி</option>
+                                  <option value="திட்டக்குடி">திட்டக்குடி</option>
+                                  <option value="வடலூர்">வடலூர்</option>
+                                   <option value="ஒன்றியம் இல்லை">ஒன்றியம் இல்லை</option>
+                                </select><br><br>
+                        </div>
+
+                        <div class="row2">
+                            <label for="part">பகுதி </label>
+                            <select id="position" name="position" style="width: 100%;">
+                                <option hidden ></option>
+                                 <option value="தலைவர்">தலைவர்</option>
+                                <option value="செயலாளர்">செயலாளர்</option>
+                                <option value="பொருளாளர்">பொருளாளர்</option>
+                                </select><br><br>
+
+                            <label for="partDetails">பகுதி விவரம்</label>
+                            <input type="text" id="positionDesc" name="positionDesc" /><br>
+
+                            <label for="address">முகவரி</label>
+                            <textarea id="address" name="address" style="width: 100%;"></textarea><br>
+
+                        </div>
+                    </div>
+
+
+                    <div class="none"></div>
+                    
+                    <input type="button" value="முன் செல்" style="width: 45%; float: left;" onclick="disFun()"></input>
+
+                    <input type="button" id="btnVerify" value="பதிவு செய்ய" style="width: 45%; float: right;" onclick="dispFun()"></input>
+                
+            </div>
+            <div class="form_container2" id="con3" style="visibility: hidden; display: none;" >
+                
+                    <div class="form">
+                       
+                        <div class="row1">
+                            <br><label for="OTP">உங்கள் அலைபேசி<br> எண்/மின்னஞ்சல் முகவரிக்கு <br>வந்துள்ள சரிபார்ப்பு குறுயீடு எண் கொடுக்கவும்</label>
+                            <input type="text" id="otp" name="otp" /><br>
+                        </div>
+                    </div>
+
+
+                    <div class="none"></div>
+                    
+                    <input type="button" id="otpVerify" value="பதிவு செய்ய" style="width: 100%;" onclick="registerMemberDetails()" ></input>
+                    <a href="/"><input type="button" id="btnReset" value="முன் பக்கம் செல்ல " style="width: 100%; display: none;" ></input></a>
+
+                    <!-- <input class="btn btn-primary" type="button" value="Next" style="width: 40%; float: right;" onclick="disFun()"></input> -->
+                
+            </div>
+        </form>
+        </section>
+
+    </div>
+
+
+    <!-- Form -->
+    <!--footer-->
+    <!--page_container-->
+    <div class="page_container">
+
+        <div>
+            <div class="wrap">
+                <div class="container">
+
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="container">
+                <section>
+                    <div class="row">
+                        <div class="span4">
+
+
+                        </div>
+                    </div>
+                </section>
+                <section>
+
+
+
+
+
+                    <h2 class="title">
+                        தொடர்புக்கு </h2>
+
+
+                    <div class="wrap">
+                        <div class="container">
+                            <section>
+                                <div class="row">
+                                    <div class="span4">
+                                        <h2 class="title"><span style="font-size: 17px"><span
+                                                    style="color: #FF0004">முகவரி</span></h2>
+                                        <p><span style="font-size: 14px">
+                                                <strong> <span style="font-size: 18px">தமிழக வாழ்வுரிமைக்
+                                                        கட்சி</strong><br><br>
+
+
+                                                தலைமை அலுவலகம்,<br>
+
+                                                எண்-159, மாவீரன் திலீபன் இல்லம்,<br>
+                                                திருப்பதி நகர் முதல் குறுக்கு தெரு, <br>
+                                                வளசரவாக்கம்,<br>
+                                                சென்னை 600087.
+
+
+                                                <br>
+                                        </p> <br>
+
+
+                                    </div>
+                                    <div class="span4">
+                                        <h2 class="title"><span style="font-size: 17px"><span
+                                                    style="color: #FF0004">தகவல்கள் மற்றும்
+                                                    கருத்துகளுக்கு </span></h2>
+
+
+                                        <p><span style="font-size: 14px">கைபேசி : <span style="font-size: 17px">+91
+                                                    95000 93330, 90473 30336
+                                        </p>
+                                        <p><span style="font-size: 15px">மின்னஞ்சல் : <span
+                                                    style="font-size: 17px">tvkpartyheadoffice@gmail.com </p>
+
+
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+
+
+
+
+
+
+                                <p></p>
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="profile">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+            </div>
+            <!--//page_container-->
+
+
+
+
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="span5">
+
+                        <div class="copyright">&copy; 2012 ஆக்கமும் பராமரிப்பும்: தமிழக வாழ்வுரிமைக் கட்சி</div>
+                    </div>
+                    <div class="span7">
+                        <div class="foot_right_block">
+                            <div class="fright">
+
+                            </div>
+                            <div class="follow_us">
+
+                            </div>
+                            <div class="clear"></div>
+
+                            <div class="clear"></div>
+                            <div class="foot_menu">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--//footer-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+    <script type="text/javascript" src="js/camera.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.tweet.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

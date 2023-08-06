@@ -1,0 +1,131 @@
+
+.container1 {
+    background-color: white;
+    padding:10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+@media (max-width: 1057px) {
+    .container1{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+
+        
+    }
+    #yt{
+        
+        /* position: inherit; */
+        width: 100%;
+        height: 100%;
+    }
+    .yt_stream{
+        margin: 0 auto;
+        flex: wrap;
+        width: 100%;
+        /* position: inherit; */
+        
+    }.form_container,.form_container1,.form_container2{
+
+        margin: 0 auto;
+        width: 80%;
+        position: inherit;
+        
+    }
+    .form{
+        /* flex-direction: column; */
+        width: 100%;
+        flex: wrap;
+    }
+
+    .row1,.row2,input,textarea{
+        width: 100%;
+    /* margin: 20px 0 12px 0; */
+    border:0 px;
+
+    }
+
+}
+.yt_stream {
+    /* width: 40%; */
+
+    margin: 0,auto;
+    width: 50%;
+    padding-right: 40px;
+
+    
+}
+
+#yt {
+    /* width: 500px;
+    height: 315px; */
+    display: flex;
+    width: 100% ;
+    height: 100%;
+    position: inherit;
+    
+}
+
+.form_container {
+    background: rgba(255, 255, 255, 0.25);
+/* box-shadow: 0 12px 56px 0 rgba( 31, 38, 135, 0.37 ); */
+
+/* border: 1px solid rgba(0, 0, 0, 0.893); */
+    /* width: 40%; */
+    /* height: 100%; */
+    border-radius: 18px;
+    padding: 15px;
+
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.row1,.row2 {
+    padding-right: 30px;
+
+    box-sizing: border-box;
+    
+}
+
+
+
+.form_container1 {
+    background: rgba(255, 255, 255, 0.25);
+/* box-shadow: 0 12px 56px 0 rgba( 31, 38, 135, 0.37 ); */
+
+/* border: 1px solid rgba(255, 0, 0, 0.893); */
+    /* width: 40%; */
+    /* height: 100%; */
+    border-radius: 18px;
+    padding: 15px;
+
+}
+.form_container2{
+    background: rgba(255, 255, 255, 0.25);
+/* box-shadow: 0 12px 56px 0 rgba( 31, 38, 135, 0.37 ); */
+
+/* border: 1px solid rgba(255, 0, 0, 0.893); */
+    /* width: 40%; */
+    /* height: 100%; */
+    border-radius: 18px;
+    padding: 15px;
+
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color:#ad0000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  select {
+    width: 100%;
+  }
