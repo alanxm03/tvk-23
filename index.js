@@ -2,6 +2,8 @@ const express=require('express')
 const app=express()
 const mongoose=require('mongoose')
 const cors = require('cors');
+const serverless=require('serverless-http');  //serverless-http
+
 require('dotenv').config()
 var path = require('path')
 const bodyParser=require('body-parser')
@@ -66,7 +68,4 @@ const memberRegistration=require('./controllers/memberRegistration')
 app.use('/registermember',memberRegistration)
 
 
-
-  app.listen(3000,()=>{
-    console.log("Listening to port 3000");
-})
+module.exports.handler=serverless(app);
